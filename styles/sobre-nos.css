@@ -1,0 +1,29 @@
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 4em 0;
+}
+
+.sobre-nos__subtitulo {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.sobre-nos__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.sobre-nos__descricao {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+
+
