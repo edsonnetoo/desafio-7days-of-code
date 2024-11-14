@@ -1,0 +1,47 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 4em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.botao__entrar {
+    color: var(--cinza);
+}
+
+.botao__cadastrar {
+    background: var(--vermelho);
+    color: var(--cor-de-fundo);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.botao__cadastrar:hover {
+    background: var(--vermelho-secundario);
+}
