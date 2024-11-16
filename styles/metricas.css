@@ -24,6 +24,7 @@
 .metricas__item__descricao {
     color: var(--cinza);
     font-weight: 400;
+    width: 70%;
 }
 
 
