@@ -1,0 +1,33 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em 0;
+}
+
+.vagas__subtitulo {
+    color: var(--vermelho);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.7em;
+}
+
+.vagas__titulo {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0.5em 0;
+}
+
+.vagas__descricao {
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.vagas__imagem {
+    padding: 3em 0;
+}
+
