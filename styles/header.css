@@ -21,6 +21,10 @@
     font-weight: 500;
 }
 
+.lista-menu__item:hover {
+    color: var(--vermelho-secundario);
+}
+
 a {
     text-decoration: none;
 }
