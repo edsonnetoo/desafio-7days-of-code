@@ -1,0 +1,38 @@
+.rodape {
+    background: var(--cinza-de-fundo);
+    padding: 96px;
+}
+
+.rodape-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.rodape-itens__titulo {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape-itens__subtitulo {
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rodape-itens__email__input {
+    /* padding: 1em;
+    width: 360px;
+    border-radius: 16px; */
+}
+
+.rodape-itens__direitos {
+    color: #98A2B3;
+    font-weight: 400;
+}
+
+
+
+
